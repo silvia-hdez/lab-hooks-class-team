@@ -23,7 +23,7 @@ const DetailPage = () => {
             <h1>User {userId}</h1>
             {comments.map((comment) => {
                 return (
-                    <div className='BoxComment'>
+                    <div className='BoxComment' key={comment.name}>
                         <p><b>name: </b>{comment.name}</p>
                         <p><b>email: </b>{comment.email}</p>
                         <p><b>body: </b>{comment.body}</p>
