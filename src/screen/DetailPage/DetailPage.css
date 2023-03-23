@@ -1,0 +1,9 @@
+.BoxComment {
+    width: 600px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.BoxComment p {
+    margin: 2px;
+}
